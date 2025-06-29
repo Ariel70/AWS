@@ -23,9 +23,9 @@ You, acting as a **Cloud/DevOps Engineer**, are tasked with:
 - ✅ Ensuring **public HTTP/HTTPS access**  
 - ✅ Applying **layered security** using both **NACLs** and **Security Groups**
 
-Architecture:
+ARCHITECTURE:
 
-## 🧰 Technologies Used   edit 
+## 🧰 Technologies Used   EDIT
 -----------------------------------------------------------------------------------------------------------
 | AWS Service             | Description                                                                   |
 |-------------------------|-------------------------------------------------------------------------------|
