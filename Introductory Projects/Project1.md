@@ -4,19 +4,20 @@ Project Goals:
 
 Architecture:
 
-Technologies used:
-
 ## 🧰 Technologies Used
-
-- **Amazon VPC** – Created a custom Virtual Private Cloud with CIDR `172.16.0.0/16`
-- **Subnet** – Configured a public subnet (`172.16.1.0/24`)
-- **Internet Gateway (IGW)** – Enabled outbound internet access for the VPC
-- **Route Tables** – Set up custom route to direct traffic through the IGW
-- **Amazon EC2** – Launched a Linux virtual machine in the public subnet
-- **Elastic IP (EIP)** – Assigned a static public IP to the EC2 instance
-- **Security Groups** – Allowed inbound traffic for SSH (22), HTTP (80), HTTPS (443)
-- **Network ACLs (NACLs)** – Added subnet-level stateless firewall rules
-- **Key Pairs** – Used to securely SSH into the EC2 instance
-- **AWS Management Console** – Used the console UI to provision all resources
+-----------------------------------------------------------------------------------------------------------
+| AWS Service             | Description                                                                   |
+|-------------------------|-------------------------------------------------------------------------------|
+| **Amazon VPC**          | Created a custom Virtual Private Cloud with CIDR block `172.16.0.0/16`        |
+| **Subnet**              | Created a Public Subnet (`172.16.1.0/24`) inside the VPC                      |
+| **Internet Gateway**    | Created and attached an IGW to enable internet access                         |
+| **Route Table**         | Configured routing for the subnet to send traffic to the internet via IGW     |
+| **Elastic IP (EIP)**    | Allocated and attached a static public IP to the EC2 instance                 |
+| **Amazon EC2**          | Launched a Linux instance in the public subnet                                |
+| **Security Groups (SG)**| Allowed ports 22 (SSH), 80 (HTTP), and 443 (HTTPS) for secure instance access |
+| **Network ACLs (NACLs)**| Configured stateless firewall rules for the subnet                            |
+| **Key Pairs (EC2)**     | Used for SSH access to the EC2 instance                                       |
+| **AWS Console**         | All services provisioned manually through the AWS Management Console UI       |
+-----------------------------------------------------------------------------------------------------------
 
 Deployment steps:
