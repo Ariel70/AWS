@@ -25,7 +25,7 @@ You, acting as a **Cloud/DevOps Engineer**, are tasked with:
 
 Architecture:
 
-## 🧰 Technologies Used
+## 🧰 Technologies Used   edit 
 -----------------------------------------------------------------------------------------------------------
 | AWS Service             | Description                                                                   |
 |-------------------------|-------------------------------------------------------------------------------|
@@ -41,4 +41,4 @@ Architecture:
 | **AWS Console**         | All services provisioned manually through the AWS Management Console UI       |
 -----------------------------------------------------------------------------------------------------------
 
-Deployment steps:
+Deployment steps: 
