@@ -1,11 +1,32 @@
-Usecase:
+## 📖 Use Case Scenario
+**Company**: A FinTech startup  
+**Project Goal**: Launch an MVP for a **crypto price-tracking web app**  
+**Constraints**:
+- No managed compute services (e.g., ECS, Lambda) during MVP
+- Must host on secure, isolated infrastructure
+- Should allow internet access for end users
+- Should be scalable in future phases
+- Must provide full transparency into networking, security, and costs
 
-Project Goals:
+**CTO Requirements**:
+- Use **Amazon EC2** instead of managed platforms
+- Deploy inside a **custom VPC**
+- Manually configure networking and security for hands-on learning
+- Keep costs low and setup simple for the MVP phase
+  
+## 🎯 Project Goals
+
+You, acting as a **Cloud/DevOps Engineer**, are tasked with:
+
+- ✅ Designing a secure, **public-facing network architecture** in AWS  
+- ✅ Deploying a **Linux EC2 instance** to host the application  
+- ✅ Ensuring **public HTTP/HTTPS access**  
+- ✅ Applying **layered security** using both **NACLs** and **Security Groups**
 
 Architecture:
 
 ## 🧰 Technologies Used
------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------``
 | AWS Service             | Description                                                                   |
 |-------------------------|-------------------------------------------------------------------------------|
 | **Amazon VPC**          | Created a custom Virtual Private Cloud with CIDR block `172.16.0.0/16`        |
