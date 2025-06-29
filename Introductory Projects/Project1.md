@@ -41,4 +41,4 @@ ARCHITECTURE:
 | **AWS Console**         | All services provisioned manually through the AWS Management Console UI       |
 -----------------------------------------------------------------------------------------------------------
 
-Deployment steps: 
+DEPLOYMENT STEPS: 
