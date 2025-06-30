@@ -9,7 +9,7 @@
 - Must provide full transparency into networking, security, and costs
 
 **CTO Requirements**:
-- Use **Amazon EC2** instead of managed platforms
+- Use **Amazon EC2** instead of managed platformse
 - Deploy inside a **custom VPC**
 - Manually configure networking and security for hands-on learning
 - Keep costs low and setup simple for the MVP phase
