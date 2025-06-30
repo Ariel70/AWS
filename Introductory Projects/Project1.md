@@ -24,6 +24,7 @@ You, acting as a **Cloud/DevOps Engineer**, are tasked with:
 - ✅ Applying **layered security** using both **NACLs** and **Security Groups**
 
 ARCHITECTURE:
+![1 drawio](https://github.com/user-attachments/assets/f60a7bfb-8150-486b-81ac-a057ccad2eaf)
 
 ## 🧰 Technologies Used   EDIT
 -----------------------------------------------------------------------------------------------------------
