@@ -31,8 +31,8 @@ You, acting as a **Cloud/DevOps Engineer**, are tasked with:
 -----------------------------------------------------------------------------------------------------------
 | AWS Service             | Description                                                                   |
 |-------------------------|-------------------------------------------------------------------------------|
-| **Amazon VPC**          | Created a custom Virtual Private Cloud with CIDR block `172.16.0.0/16`        |
-| **Subnet**              | Created a Public Subnet (`172.16.1.0/24`) inside the VPC                      |
+| **Amazon VPC**          | Created a custom Virtual Private Cloud with CIDR block `10.0.0.0/16`          |
+| **Subnet**              | Created a Public Subnet (`10.0.0.0/24`) inside the VPC                        |
 | **Internet Gateway**    | Created and attached an IGW to enable internet access                         |
 | **Route Table**         | Configured routing for the subnet to send traffic to the internet via IGW     |
 | **Elastic IP (EIP)**    | Allocated and attached a static public IP to the EC2 instance                 |
@@ -44,3 +44,5 @@ You, acting as a **Cloud/DevOps Engineer**, are tasked with:
 -----------------------------------------------------------------------------------------------------------
 
 ## 🚀 Deployment 
+
+I created a VPC where my 2 subnets will be contained. The CIDR block has a range of `10.0.0.0/16`. Then I created a 
